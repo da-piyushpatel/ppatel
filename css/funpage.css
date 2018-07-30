@@ -1,0 +1,74 @@
+body,html{
+	height:100%;
+	margin:0;
+}
+.backimg{
+	background-image:url("image/rainbow-header.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;		
+}
+
+a:link
+{
+	color:#64572a;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:visited
+{
+	color:rgb(210,105,30);
+	background-color:transparent;
+	text-decoration:none;
+}
+a:hover
+{
+	color:rgb(192,192,192);
+	background-color:transparent;
+	text-decoration:none;
+}
+a:active/*a:active must coe after a hover*/
+{
+	color:red;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+body{
+	font-family: Comic Sans MS;
+	background-color:linen;
+	margin-left: 7%;
+	margin-right: 7%;
+	color: #8B4513;
+	min-width:1000px;
+}
+h1{
+	text-align:center;
+	color:white;
+	text-shadow: 1px 5px 5px rgb(150,109,45);
+	margin-top:40px;
+	margin-bottom:10px;
+	padding-bottom: 20px;
+	font-size: 60px;
+	letter-spacing: 10px;
+
+}
+#subtitle{
+	text-align: center;
+	font-size: 24px;
+}
+footer{
+	background-color: rgba(187,143,206,0.5);
+	text-align: center
+	border:2px solid white;
+	border-radius:12px;
+	float:center;
+	clear: both;
+	text-align: center;
+}
+a.social{
+	margin:20px;
+	font-size:35px;
+	color:#64572a;
+}

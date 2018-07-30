@@ -1,0 +1,37 @@
+.parallax {
+    /* The image used */
+    background-image: url("image/image2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body,html{
+	margin:0;
+	padding:0;
+	font-family:comic sans MS;
+	background-color: linen;
+}
+
+li{
+    text-decoration-style: none;
+    list-style: none;
+    border-color: 4.8px #ccc;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+ul{
+    margin-bottom:50px;
+}

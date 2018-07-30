@@ -1,0 +1,126 @@
+a:link
+{
+	color:#64572a;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:visited
+{
+	color:rgb(210,105,30);
+	background-color:transparent;
+	text-decoration:none;
+}
+body{
+	background-color:linen;
+	margin-left: 4%;
+	margin-right: 4%;
+	color: #8B4513;
+	align-self: center;
+	text-align:center;
+
+}
+
+/*things not to be displayed*/
+.smallscreen{
+				display:none;
+}
+
+#main-heading{
+	text-align:center;
+	color:white;
+	text-shadow: 1px 2px 5px rgb(150,109,45);
+	margin-top:40px;
+	margin-bottom:20px;
+	padding-bottom: 40px;
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+.navlink{
+	min-width: 20px;
+	text-align: center;
+	margin: 2.5%;
+	padding: 5px 2px 5px 2px;
+	font-size:25px;
+	font-weight: bold;
+}
+.navlink:hover{
+	transition:0.3s ease-in-out;
+}
+#navigation_bar{
+	list-style-type: none;
+	background-color: transparent;
+	margin-left-right:5px;
+}
+#curved_buttons{
+	text-align: center;
+}
+a.curved-buttons:link,a.curved-buttons:visited{
+	border:4px solid #8B4513;
+	margin:6%;
+	min-width: 60px;
+	max-width: 150px;
+	border-radius: 10px;
+	padding:5px 5px 5px 5px;
+	text-align:center;
+	display: inline-block;
+	font-size:18px;
+	font-weight:900;
+}
+a.curved-buttons:hover,a.curved-buttons:active{
+	background-color: #8B4513;
+	color:white;
+	box-shadow: 1px 2px 5px #D2691E;
+	transition: 0.3s ease-in-out;
+}
+.curved-buttons-extlinks{
+	width: 90%;
+	min-width: 100px;
+	border:4px solid #8B4513;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin:6%;
+	border-radius: 10px;
+	padding:5px 5px 5px 5px;
+	text-align:center;
+	display: inline-block;
+	font-size:18px;
+	font-weight:900;
+}
+a.curved-buttons-extlinks:hover,a.curved-buttons-extlinks:active{
+	background-color: #8B4513;
+	color:white;
+	box-shadow: 1px 2px 5px #D2691E;
+	transition: 0.3s ease-in-out;
+}
+#topbutton{
+    position: fixed; 
+    z-index: 1;
+    border: none;
+    outline: none;
+    bottom: 20px;
+    right: 20px;
+    background-color: #D2691E;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+}
+#topbutton:hover{
+	background-color: #555;
+	transition: 0.3s ease-in-out;
+}
+#footer{
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background-color: rgb(250,230,210);
+	border-radius: 24px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+a.social{
+	margin:5px;
+	font-size:25px;
+	color:#64572a;
+}
