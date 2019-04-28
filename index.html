@@ -11,10 +11,10 @@ if($_POST["submit"]) {
 
     mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
 
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
-}
+    $thankYou="";
+}?>
 
-?><!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 <head>
